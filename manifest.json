@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Instagram Login Points",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.instagram.com/*",
+        "http://*.instagram.com/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "login_points.js",
+        "login_points_window.js"
+      ]
+    }
+  ]
+}

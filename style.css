@@ -1,0 +1,39 @@
+#instagram_points_area_box {
+  display: flex;
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  background-color: #fff1c7e5;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.35);
+  padding: 16px 68px;
+  border-radius: 16px;
+  align-items: center;
+}
+
+#instagram_points_points_num {
+  font-size: 28px;
+  color: #5e5e5e;
+  margin-bottom: 10px;
+}
+
+#instagram_points_login_num {
+  font-size: 18px;
+  color: #a2a2a2;
+}
+
+#instagram_points_points_num_child {
+  font-size: 22px;
+  margin-left: 4px;
+}
+
+#instagram_points_login_num_child {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+
+#instagram_points_bonus {
+  font-size: 20px;
+  margin-top: 14px;
+  color: #ff8115;
+}
